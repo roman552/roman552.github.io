@@ -13,6 +13,7 @@
 .container {
 	width: 1140px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .logo .logo-img {
@@ -76,7 +77,7 @@ h2.title {
 	font-weight: 700;
 }
 
-.promo .promo-btn {
+.btn {
 	display: block;
 	margin: 0 auto;
 	margin-top: 73px;
@@ -169,4 +170,177 @@ h2.title {
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 21px;
+}
+
+.optimization {
+	min-height: 550px;
+	padding: 102px 0 107px 0;
+
+}
+
+.optimization .optimization-header {
+	margin-left: 391px;
+	color: #299cbd;
+	font-size: 29px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.optimization .optimization-text {
+	margin-top: 25px;
+	margin-left: 391px;
+	color: #4a4a4a;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.optimization .optimization-text span{
+	font-weight: 700;
+}
+
+.optimization .optimization-img {
+	position: absolute;
+	top: -54px;
+	left: -240px;
+	z-index: -1;
+}
+
+.finish {
+	min-height: 447px;
+	padding: 86px 0 79px 0;
+	background: url("../img/bg/second_bg.png") center center/cover no-repeat;
+
+}
+
+.finish .finish-wrapper {
+	margin-top: 41px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.finish .finish-wrapper .finish-item {
+	width: 204px;
+}
+
+.finish .finish-wrapper .finish-item .finish-round {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 115px;
+	height: 115px;
+	background-color: #b3e2ff;
+	border-radius: 100%
+}
+
+.finish .finish-wrapper .finish-item .finish-descr {
+	margin-top: 25px;
+	text-align: center;
+	color: #efefef;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.finish .finish-divider {
+	width: 217px;
+	height: 4px;
+	background-color: #f9bf3b;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+.finish .finish-header {
+	color: #efefef;
+	font-size: 27px;
+	text-align: center;
+}
+
+.gift {
+	min-height: 200px;
+	background-color: #efefef;
+	padding: 10px 0;
+}
+
+.gift .gift-img {
+	display: block;
+	margin: 40px auto;
+}
+
+.gift .gift-text {
+	margin-top: 25px;
+	color: #4a4a4a;
+	font-size: 17px;
+	font-weight: 300;
+	text-align: center;
+}
+
+.gift .gift-btn {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.webinar {
+	min-height: 400px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.webinar .webinar-img {
+	display: block;
+	margin: 40px auto;
+}
+
+.webinar .webinar-header {
+	margin-top: -15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.webinar .webinar-data {
+	margin-top: 15px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #299cbd;
+}
+
+.webinar .webinar-text {
+	margin-top: 15px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	text-align: center;
+	color: #4a4a4a;
+}
+
+footer {
+	height: 169px;
+	bottom: #1a1a1a;
+}
+
+footer .footer-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+footer .footer-link, footer .footer-text, footer .footer-link-divider {
+	margin-top: 70px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	color: #888888;
+}
+
+footer .footer-text {
+	margin-top: 0;
+}
+
+footer .footer-link-divider {
+	margin-left: 5px;
+	margin-right: 5px;
+	font-weight: 800;
 }
